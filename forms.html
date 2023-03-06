@@ -9,6 +9,8 @@
 <body>
     <h1>Form Demo</h1>
     <form action="/tacos"></form>
+    <button type="buttom">PLease do not sumit the form</button>
+
     <p><label for="username" >Enter username</label>
         <input id="username" type="text" placeholder="username">
     </p>
@@ -19,6 +21,8 @@
             <label for="password">Enter password</label>
             <input id="password" type="password" placeholder="Enter password">
         </p>
+        <button>The middle!</button>
+
         <p>
             <label for="color">Enter color</label>
             <input id="color" type="color">
@@ -31,7 +35,16 @@
         </p>
         <p></p>
         <object data="" type=""></object>
-        
+        <button>Submit</button>
+        <!--This button doesn't submit the form b/c of the "typr" attribute-->
+        <button type=""button>Regular button (won't submit)</button>
+        <!--This is button submit the form-->
+        <button>submit!!</button>
+        <input type="submit" value="Click me ">
     </form>
+    <hr>
+    <!--Outside of a form , no default behavior-->
+    <input type="submit" value="Click me !">
+
 </body>
 </html>
